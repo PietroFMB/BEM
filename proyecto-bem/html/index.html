@@ -7,7 +7,7 @@
   <title>Interfaz BEM + Bootstrap</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
   <link rel="stylesheet" href="css/styles.css" />
-  </head>
+</head>
 
 <body>
   <!-- HEADER -->
@@ -15,7 +15,8 @@
     <div class="container d-flex flex-column flex-md-row align-items-center justify-content-between">
       <div class="header__logo fs-4 mb-2 mb-md-0">Provincia de Palena</div>
       <nav class="header__nav d-flex gap-3">
-        <a href="https://youtu.be/miS8ffKQKYM" class="header__link header__link--active text-white text-decoration-none">Hornopirén</a>
+        <a href="https://youtu.be/miS8ffKQKYM"
+          class="header__link header__link--active text-white text-decoration-none">Hornopirén</a>
         <a href="https://youtu.be/P6srQ4ufypM" class="header__link text-white text-decoration-none">Futaleufú</a>
         <a href="https://youtu.be/vmqVgD87YtQ" class="header__link text-white text-decoration-none">Palena</a>
         <a href="https://youtu.be/ta_Zw8eroNE" class="header__link text-white text-decoration-none">Chaitén</a>
@@ -25,13 +26,56 @@
 
   <!-- MAIN -->
   <main class="main py-5">
-    <div class="container d-flex justify-content-center">
-      <div class="card card__block shadow p-4 text-center" style="max-width: 400px;">
-        <h2 class="card__title h5 mb-3">Provincia de Palena</h2>
-        <p class="card__text mb-3">Uno de los últimos lugares vírgenes del planeta, la entrada de la carretera austral y uno de los pulmones del mundo. Visite la Provincia de Palena, en donde podrá participar en diferentes actividades en invierno y verano.</p>
-        <button onclick="location.href='https://youtu.be/M3m72NKU6kY'" class="btn btn-success card__button card__button--primary">Ver más</button>
+    <article>
+      <div class="container d-flex justify-content-center">
+        <div class="card card__block shadow p-4 text-center" style="max-width: 400px;">
+          <h2 class="card__title h5 bg-warning mb-3">Provincia de Palena</h2>
+          <p class="card__text mb-3">Uno de los últimos lugares vírgenes del planeta, la entrada de la carretera austral
+            y uno de los pulmones del mundo. Visite la Provincia de Palena, en donde podrá participar en diferentes
+            actividades en invierno y verano.</p>
+          <button onclick="location.href='https://youtu.be/M3m72NKU6kY'"
+            class="btn btn-success card__button card__button--primary">Ver más</button>
+        </div>
       </div>
-    </div>
+    </article>
+  <section class="section mt-5">
+      <div class="container mt-5">
+        <div class="row">
+          <div class="col-md-4 mb-4">
+            <div class="card h-100">
+              <img src="..//img/rio.jpg" class="section__imagen" style="height: 220px;" alt="aventura en la naturaleza">
+              <div class="section__body text-center">
+                <h5 class="section__titulo bg-primary">Aventura en la Naturaleza</h5>
+                <p class="section__parrafo">Explora los paisajes vírgenes de la provincia de Palena, donde la naturaleza te
+                  espera con los brazos abiertos.</p>
+                <a href="https://youtu.be/miS8ffKQKYM" class="section__boton--primary bg-primary text-white">Ver Video</a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card h-100">
+              <img src="..//img/barco.jpg" class="section__imagen " style="height: 220px;" alt="cultura local">
+              <div class="section__body text-center">
+                <h5 class="section__titulo bg-primary">Cultura Local</h5>
+                <p class="section__parrafo">Sumérgete en la rica cultura de la provincia de Palena, donde las tradiciones
+                  y la historia cobran vida.</p>  
+                <a href="https://youtu.be/P6srQ4ufypM" class="section__boton--primary bg-primary text-white">Ver Video</a>
+              </div>  
+            </div>
+          </div>
+          <div class="col-md-4 mb-4">
+            <div class="card h-100">
+              <img src="..//img/comida.jpg" class="section__imagen" style="height: 220px;" alt="comida típica">
+              <div class="section__body text-center">
+                <h5 class="section__titulo text-center bg-primary ">Gastronomía Autóctona</h5>
+                <p class="section__parrafo text-center">Disfruta de la deliciosa gastronomía local, con  platos típicos que reflejan la
+                  esencia de la provincia de Palena.</p>
+                <a href="https://youtu.be/vmqVgD87YtQ" class="section__boton--primary bg-primary text-white">Ver Video</a>
+              </div>
+            </div>
+          </div>
+  </section>
+
   </main>
 
   <!-- FOOTER -->
