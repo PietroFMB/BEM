@@ -1,0 +1,48 @@
+html, body {
+      height: 100%;
+    }
+
+    body {
+      display: flex;
+      flex-direction: column;
+      min-height: 100vh;
+    }
+
+    main {
+      flex: 1;
+    }
+
+.header__link--active {
+  border-bottom: 2px solid yellow;
+}
+
+.card__title {
+  color: #222;
+}
+
+.card__text {
+  color: #555;
+}
+
+.card__button--primary {
+  font-weight: 500;
+}
+
+.card__button--primary:hover {
+  background-color: #130056; 
+  color: #fff;
+}
+
+.footer {
+    margin-top: auto;
+    margin-bottom: 0;
+ }
+
+.footer__text {
+  font-size: 0.9rem;
+  text-align: center;
+  color: #fff;
+  margin: 0;
+  padding: 0.5rem 0;
+  position: relative;
+}
